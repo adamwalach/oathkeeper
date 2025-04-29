@@ -42,6 +42,9 @@ node_modules: package-lock.json
 authors:  # updates the AUTHORS file
 	curl https://raw.githubusercontent.com/ory/ci/master/authors/authors.sh | env PRODUCT="Ory Oathkeeper" bash
 
+pm: 
+	echo "pm"
+
 .PHONY: format
 format: .bin/goimports .bin/ory node_modules
 	.bin/ory dev headers copyright --type=open-source --exclude=internal/httpclient
