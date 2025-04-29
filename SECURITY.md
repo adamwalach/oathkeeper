@@ -2,9 +2,9 @@
 <!-- Please edit the original at https://github.com/ory/meta/blob/master/templates/repository/common/SECURITY.md -->
 
 # Ory Security Policy
-asdasdsd
-This policy outlines Ory's security commitments and practices for users across
-different licensing and deployment models.
+
+asdasdsd This policy outlines Ory's security commitments and practices for users
+across different licensing and deployment models.
 
 To learn more about Ory's security service level agreements (SLAs) and
 processes, please [contact us](https://www.ory.sh/contact/).
